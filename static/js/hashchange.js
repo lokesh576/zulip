@@ -108,9 +108,11 @@ function do_hashchange_normal(from_reload) {
     case "#":
         activate_home_tab();
         break;
-    case "#keyboard-shortcuts":
+    case "#keyboard-shortcuts": {
+        console.log("iurebgnviebf");
         info_overlay.show("keyboard-shortcuts");
-        break;
+        loki.launch();
+        break;}
     case "#message-formatting":
         info_overlay.show("message-formatting");
         break;
